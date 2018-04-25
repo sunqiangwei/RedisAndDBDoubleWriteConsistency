@@ -1,0 +1,16 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: 
+    driver-class-name: com.mysql.jdbc.Driver
+    
+  redis:
+    host: 192.168.40.152
+    port: 6379
+
+mybatis:
+  typeAliasesPackage: com.bixkjwfnh.eshop.cache.model
+  mapperLocations: classpath:mybatis/*.xml
+    
