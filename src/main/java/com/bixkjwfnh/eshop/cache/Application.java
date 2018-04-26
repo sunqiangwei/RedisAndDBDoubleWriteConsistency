@@ -4,21 +4,21 @@ package com.bixkjwfnh.eshop.cache;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.web.servlet.ServletListenerRegistrationBean;
-import org.springframework.context.annotation.Bean;
+import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.cache.annotation.EnableCaching;
 
-import com.bixkjwfnh.eshop.cache.listener.InitListener;
-
+/**
+ * 启动类
+ * 
+ * @since 2018.04.26
+ * @author SunQW
+ *
+ */
 @SpringBootApplication
+@EnableCaching
 @MapperScan("com.bixkjwfnh.eshop.cache.mapper")
+@ServletComponentScan("com.bixkjwfnh.eshop.cache")
 public class Application {
- 
-	@Bean
-	public ServletListenerRegistrationBean servletListenerRegistrationBean(){        
-		ServletListenerRegistrationBean servletListenerRegistrationBean = new ServletListenerRegistrationBean();        
-		servletListenerRegistrationBean.setListener(new InitListener());        
-		return servletListenerRegistrationBean;    
-	}
 	
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);

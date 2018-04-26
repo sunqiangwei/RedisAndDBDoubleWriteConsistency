@@ -1,5 +1,12 @@
 package com.bixkjwfnh.eshop.cache.model;
 
+/**
+ * ProductInventory实体类
+ * 
+ * @since 2018.04.26
+ * @author SunQW
+ *
+ */
 public class ProductInventory {
 
     private Integer productId;

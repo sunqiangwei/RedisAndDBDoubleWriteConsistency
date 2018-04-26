@@ -5,6 +5,7 @@ import com.bixkjwfnh.eshop.cache.model.ProductInventory;
 /**
  * 商品库存Service接口
  * 
+ * @since 2018.04.26
  * @author SunQW
  *
  */

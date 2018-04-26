@@ -12,7 +12,8 @@ import com.bixkjwfnh.eshop.cache.service.ProductInventoryService;
  * 
  * （1）删除缓存<br/>
  * （2）更新数据库<br/>
- * 
+ *
+ * @since 2018.04.26
  * @author SunQW
  *
  */

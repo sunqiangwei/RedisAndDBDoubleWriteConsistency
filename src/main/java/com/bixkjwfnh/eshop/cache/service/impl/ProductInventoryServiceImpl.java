@@ -10,6 +10,8 @@ import com.bixkjwfnh.eshop.cache.service.ProductInventoryService;
 
 /**
  * 商品库存Service实现类
+ * 
+ * @since 2018.04.26
  * @author SunQW
  *
  */

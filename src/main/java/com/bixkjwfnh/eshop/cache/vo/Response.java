@@ -2,6 +2,8 @@ package com.bixkjwfnh.eshop.cache.vo;
 
 /**
  * 请求的响应
+ * 
+ * @since 2018.04.26
  * @author SunQW
  *
  */

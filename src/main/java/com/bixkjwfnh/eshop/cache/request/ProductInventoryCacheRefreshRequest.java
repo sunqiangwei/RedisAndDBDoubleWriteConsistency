@@ -6,6 +6,7 @@ import com.bixkjwfnh.eshop.cache.service.ProductInventoryService;
 /**
  * 重新加载商品库存的缓存
  * 
+ * @since 2018.04.26
  * @author SunQW
  *
  */

@@ -1,6 +1,5 @@
 package com.bixkjwfnh.eshop.cache.thread;
 
-import java.util.Map;
 import java.util.concurrent.ArrayBlockingQueue;
 
 import com.bixkjwfnh.eshop.cache.request.ProductInventoryCacheRefreshRequest;
@@ -11,6 +10,8 @@ import com.bixkjwfnh.eshop.cache.request.Request;
 
 /**
  * 执行请求的工作线程
+ * 
+ * @since 2018.04.26
  * @author SunQW
  *
  */

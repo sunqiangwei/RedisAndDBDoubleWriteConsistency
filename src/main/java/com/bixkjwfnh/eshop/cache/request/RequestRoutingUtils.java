@@ -4,6 +4,13 @@ import java.util.concurrent.ArrayBlockingQueue;
 
 import org.springframework.stereotype.Component;
 
+/**
+ * 商品队列路由划分工具类
+ * 
+ * @since 2018.04.26
+ * @author SunQW
+ *
+ */
 @Component
 public class RequestRoutingUtils {
 
